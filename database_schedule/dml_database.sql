@@ -1,4 +1,4 @@
--- USE praktisi
+-- USE praktisi;
 
 # memasukkan data pada tabel student
 -- INSERT INTO student
@@ -10,7 +10,7 @@
 -- 	(41, 'Fathur Rachman Alamsyah', 'Bumi Tamalanrea Permai', 'Sistem Informasi'),
 -- 	(44, 'Adelia Puspita Hilal', 'Perumnas Antang', 'Sistem Informasi'),
 -- 	(46, 'Putri Aulia Nur Salsabila', 'Jl. Sejati', 'Sistem Informasi');
--- SELECT * FROM student
+-- SELECT * FROM student;
 
 # memasukkan data pada tabel course
 -- INSERT INTO course
@@ -25,7 +25,7 @@
 -- 	(802, 'Analisis dan Perancangan Sistem', '100'),
 -- 	(303, 'Struktur Data', '150'),
 -- 	(203, 'Riset Teknologi Informasi', '150');
--- SELECT * FROM course
+-- SELECT * FROM course;
 
 # mengubah tipe data kolom time dari TIMESTAMP menjadi TIME
 -- ALTER TABLE schedule MODIFY time TIME
@@ -43,15 +43,15 @@
 -- 	(8, 802, '2022-10-12', '10:10:00'),
 -- 	(9, 303, '2022-10-11', '07:30:00'),
 -- 	(10, 203, '2022-10-11', '15:40:00');
--- SELECT * FROM schedule
+-- SELECT * FROM schedule;
 
 #memasukkan data pada tabel student_schedule
 INSERT INTO student_schedule
 VALUES
-(34,1) (34,2) (34,3) (34,4) (34,5)
-(36,1) (36,2) (36,3) (36,4) (36,5)
-(38,1) (38,2) (38,3) (38,4) (38,5)
-(39,1) (39,2) (39,3) (39,4) (39,5)
-(41,1) (41,2) (41,3) (41,4) (41,5)
-(44,1) (44,2) (44,3) (44,4) (44,5)
-(46,1) (46,2) (46,3) (46,4) (46,5) 
+(34,1), (34,2), (34,3), (34,4), (34,5),
+(36,1), (36,2), (36,3), (36,4), (36,5),
+(38,1), (38,2), (38,3), (38,4), (38,5),
+(39,1), (39,2), (39,3), (39,4), (39,5),
+(41,1), (41,2), (41,3), (41,4), (41,5),
+(44,1), (44,2), (44,3), (44,4), (44,5),
+(46,1), (46,2), (46,3), (46,4), (46,5); 
