@@ -6,3 +6,6 @@ GRANT INSERT, UPDATE, DELETE, SELECT ON *.* TO 'klp4'@'localhost';
 
 #cancel privilege INSERT dari user klp4
 REVOKE INSERT ON *.* FROM 'klp4'@'localhost';
+
+#cek status hak akses klp4
+SHOW GRANTS FOR 'klp4'@'localhost';
